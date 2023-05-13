@@ -1,3 +1,4 @@
+using MediatR;
 using MediatR_Demo.Repository.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +11,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddMediatR(typeof(Program));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
