@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/MediatR_And_CQRS_Demo/MediatR_Demo/obj/Debug/net6.0/MediatR_Demo.assets.cache
+/MediatR_And_CQRS_Demo/MediatR_Demo/obj/Debug/net6.0/MediatR_Demo.csproj.AssemblyReference.cache
+/MediatR_And_CQRS_Demo/MediatR_Demo/obj/MediatR_Demo.csproj.nuget.dgspec.json
+/MediatR_And_CQRS_Demo/MediatR_Demo/obj/project.nuget.cache
+/MediatR_And_CQRS_Demo/MediatR_Demo/obj/project.assets.json
