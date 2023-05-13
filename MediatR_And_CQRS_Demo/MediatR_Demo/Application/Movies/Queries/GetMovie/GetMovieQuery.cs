@@ -1,6 +1,14 @@
-﻿namespace MediatR_Demo.Application.Movies.Queries.GetMovie
+﻿using MediatR;
+using MediatR_Demo.Domain.DTOs.Responses.Movie;
+
+namespace MediatR_Demo.Application.Movies.Queries.GetMovie
 {
-    public class GetMovieQuery
+    public class GetMovieQuery : IRequest<GetMovieDto>
     {
+        public GetMovieQuery(long? id)
+        {
+            this.Id = id;
+        }
+        public long Id { get; set; }
     }
 }
