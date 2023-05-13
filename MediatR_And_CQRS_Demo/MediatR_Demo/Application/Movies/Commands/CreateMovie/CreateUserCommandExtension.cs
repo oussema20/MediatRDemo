@@ -1,6 +1,13 @@
-﻿namespace MediatR_Demo.Application.Movies.Commands.CreateMovie
+﻿using MediatR_Demo.Domain.Movie;
+
+namespace MediatR_Demo.Application.Movies.Commands.CreateMovie
 {
-    public class CreateUserCommandExtension
+    public static class CreateUserCommandExtension
     {
+        public static Movie CreateMovie(this CreateMovieCommand command)
+        {
+            var movie = new Movie(command.Title, command.Description, command.Genre, command.Rating);
+            return movie;
+        }
     }
 }
