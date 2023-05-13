@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "N2kYe87kHrD0ULWYjh25vajo5Gq6yYB70+p350ZrqCNs9ItqwRt8GQ4HiDlQhkU/0FLUJTxX9HRbDwJUaN+SIg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ousem\\source\\repos\\MediatRDemo\\MediatR_And_CQRS_Demo\\MediatR_Demo\\MediatR_Demo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ousem\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ousem\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ousem\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\ousem\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\ousem\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\ousem\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
