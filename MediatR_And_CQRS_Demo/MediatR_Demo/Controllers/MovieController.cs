@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using MediatR_Demo.Application.Movies.Commands.CreateMovie;
+using MediatR_Demo.Application.Movies.Queries.GetMovies;
 using MediatR_Demo.Domain.DTOs.Requests.Movie;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,5 +22,13 @@ namespace MediatR_Demo.Controllers
             var movie = await this.mediator.Send(new CreateMovieCommand(request.Title, request.Description, request.Genre, request.Rating));
             return Ok(movie);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetMovies()
+        {
+            var movies = await this.mediator.Send(new GetMoviesQuery());
+            return Ok(movies);
+        }
+
     }
 }

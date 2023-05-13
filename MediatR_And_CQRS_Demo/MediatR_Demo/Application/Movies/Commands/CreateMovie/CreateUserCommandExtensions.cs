@@ -2,7 +2,7 @@
 
 namespace MediatR_Demo.Application.Movies.Commands.CreateMovie
 {
-    public static class CreateUserCommandExtension
+    public static class CreateUserCommandExtensions
     {
         public static Movie CreateMovie(this CreateMovieCommand command)
         {
